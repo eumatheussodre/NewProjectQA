@@ -120,7 +120,7 @@ export default function QAPortfolio() {
                   <div>
                     <h3 className="font-semibold">Framework de Automação de Testes</h3>
                     <p className="mt-1">
-                      Desenvolvimento de um framework de automação de testes customizado usando Selenium e Python,
+                      Desenvolvimento de um framework de automação de testes customizado usando Selenium e Java,
                       resultando em 40% de aumento na cobertura de testes.
                     </p>
                   </div>
