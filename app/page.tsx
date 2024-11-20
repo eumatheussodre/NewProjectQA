@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Briefcase, Code, FileCheck, Mail, Github, Linkedin } from "lucide-react"
@@ -11,11 +11,11 @@ export default function QAPortfolio() {
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 flex items-center justify-between">
           <div className="flex items-center">
             <Avatar className="h-16 w-16 mr-4">
-              <AvatarImage src="/placeholder.svg?height=64&width=64" alt="Ana Silva" />
+              <AvatarImage src="/placeholder.svg?height=64&width=64" alt="Matheus Sodré" />
               <AvatarFallback>AS</AvatarFallback>
             </Avatar>
             <div>
-              <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Ana Silva</h1>
+              <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Matheus Sodré</h1>
               <p className="text-xl text-gray-600 dark:text-gray-300">QA Engineer</p>
             </div>
           </div>
@@ -41,7 +41,7 @@ export default function QAPortfolio() {
             </CardHeader>
             <CardContent>
               <p>
-                Sou uma QA Engineer apaixonada por garantir a qualidade de software. Com 5 anos de experiência,
+                Sou uma QA Engineer apaixonada por garantir a qualidade de software. Com 3 anos de experiência,
                 especializo-me em testes automatizados e manuais, sempre buscando melhorar a experiência do usuário
                 e a eficiência dos processos de desenvolvimento.
               </p>
@@ -62,6 +62,7 @@ export default function QAPortfolio() {
               <Badge>Agile/Scrum</Badge>
               <Badge>JIRA</Badge>
               <Badge>Git</Badge>
+              <Badge>JMeter</Badge>
             </CardContent>
           </Card>
 
@@ -74,21 +75,33 @@ export default function QAPortfolio() {
                 <div className="flex items-start">
                   <Briefcase className="h-5 w-5 mt-1 mr-2" />
                   <div>
-                    <h3 className="font-semibold">QA Engineer Senior - TechCorp</h3>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">2020 - Presente</p>
+                    <h3 className="font-semibold">QA Engineer Junior - ZENVIA</h3>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">2023 - Presente</p>
                     <p className="mt-1">
-                      Liderança de equipe de QA, implementação de estratégias de teste automatizado,
-                      redução de 30% no tempo de ciclo de testes.
+                      - QA Principal da Equipe de Attraction.
+                      - Desenvolvimento e execução de casos de teste, testes de performance, teste de regressãoautomação de testes de API e UI.
+                      - Documentação de Novas Features.
                     </p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <Briefcase className="h-5 w-5 mt-1 mr-2" />
                   <div>
-                    <h3 className="font-semibold">QA Analyst - SoftSolutions</h3>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">2018 - 2020</p>
+                    <h3 className="font-semibold">QA Analyst - Avanade</h3>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">2022 - 2023</p>
                     <p className="mt-1">
-                      Desenvolvimento e execução de casos de teste, automação de testes de API e UI.
+                      - Desenvolvimento e execução de casos de teste, testes de performance, teste de regressão, automação de testes de API e UI.
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <Briefcase className="h-5 w-5 mt-1 mr-2" />
+                  <div>
+                    <h3 className="font-semibold">QA Analyst - SouJunior Labs</h3>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">2022 - 2023</p>
+                    <p className="mt-1">
+                      - QA Principal da Squad
+                      - Desenvolvimento e execução de casos de teste, testes de performance, teste de regressão, automação de testes de API e UI.
                     </p>
                   </div>
                 </div>
